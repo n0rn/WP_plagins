@@ -1,0 +1,19 @@
+.pnd-gallery {
+	background: #f0f0f0;
+	box-shadow:  0 0 5px rgba( 0, 0, 0, 0.3);
+	padding: 20px;
+}
+
+.pnd-gallery > a > img {
+	margin: 20px;
+	border: 5px  solid #fff;
+	transition: border-color .5s;
+}
+
+.pnd-gallery > a:hover > img {
+	border:5px solid #888;
+}
+
+.lb-container a:focus {
+	ontline:none;
+}
